@@ -1,5 +1,5 @@
 module.exports = {
-    mongoURI: Process.env.MONGO_URI,
-    access_key: Process.env.S3_KEY,
-    secret_key: Process.env.S3_SECRET,
+    mongoURI: process.env.MONGO_URI,
+    access_key: process.env.S3_KEY,
+    secret_key: process.env.S3_SECRET,
 }
